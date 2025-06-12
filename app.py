@@ -32,8 +32,8 @@ async def on_message(message: discord.Message):
     if message.content == 'hello':
         await message.reply("Hello!")
 
-    if message.content == 'test':
-        await message.reply("TEST!")
+    # if message.content == 'test':
+    #     await message.reply("TEST!")
 
 
 # Botを起動
